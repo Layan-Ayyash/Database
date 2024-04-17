@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="658.0" prefWidth="991.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databaseProject.PageControl">
+   <children>
+      <ImageView fitHeight="668.0" fitWidth="991.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@truck2.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pImport" layoutX="4.0" prefHeight="496.0" prefWidth="467.0" />
+      <Pane fx:id="pPurchases" layoutX="492.0" prefHeight="496.0" prefWidth="497.0" />
+      <Button fx:id="btImport" layoutX="109.0" layoutY="561.0" mnemonicParsing="false" onAction="#importTruck" prefHeight="50.0" prefWidth="114.0" text="ImportTruck">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="351.0" layoutY="561.0" mnemonicParsing="false" onAction="#purchases" prefHeight="50.0" prefWidth="114.0" text="Purchases">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="585.0" layoutY="561.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="50.0" prefWidth="114.0" text="MainPage">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

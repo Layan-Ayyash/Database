@@ -1,0 +1,12 @@
+.root{
+	-fx-background-image:url("alBackground.jpg");
+	-fx-background-size: cover;
+	
+
+}
+#p1{
+	-fx-background-color:#ADD8E6;
+}
+#p2{
+	-fx-background-color:#87CEEB;
+}
